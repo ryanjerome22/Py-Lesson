@@ -30,8 +30,10 @@ class FB:
                 print ("   --" + friend)
 
 FB1 = FB ("Ryan Jerome ", "Valencia ", 23, ["Christine Nisa", "Norely M. Valencia"])
+FB2 = FB ("Christine Nisa ", "Velasco", 100, ["Ryan Jerome", "Norely"])
 
 FB1.NewAccount()
+FB2.NewAccount()
 
 
 
