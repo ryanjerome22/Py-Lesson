@@ -18,5 +18,14 @@ class MainCharacter:
 MainCharacter1= MainCharacter("RJ", 22, 3, 23, 4)
 MainCharacter2= MainCharacter("Nisa", 24, 25, 26, 25)
 
+class animal:
+    def __init__(self, type, voice):
+        self.type = type
+        self.voice = voice
+    
+    def speak (self):
+        print (self.voice)
 
+aone= animal ("Dog", "ARF!")
 
+aone.speak ()
