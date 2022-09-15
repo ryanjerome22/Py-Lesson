@@ -1,17 +1,9 @@
+class Warrior:
+    def __init__(self, name, health, mana):
+        self.name= name
+        self.health= health
+        self.mana= mana
+        print ("The warrior is created. -----> " + self.name)
 
-# importing Libraries
-from math import  * 
-
-channel = "PinoyFreecoder"
-channel_num= 35
-is_active= False
-average = 3.5
-
-print (channel)
-
-my_num=-5.5
-new_num= abs(my_num)
-print(int(new_num))
-
-print(floor(new_num))
-
+Warrior1= Warrior("RJ", 100, 50)
+print (Warrior)
