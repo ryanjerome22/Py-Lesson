@@ -7,3 +7,10 @@ class Warrior:
 
 Warrior1= Warrior("RJ", 100, 50)
 print (Warrior)
+
+
+name = int("20")
+
+print(isinstance(name,int))
+
+
